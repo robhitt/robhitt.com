@@ -1,13 +1,49 @@
+iframe {
+  width: 100%;
+  height: 425px;
+  border: 1px solid #7da0d6;
+}
+
+.main-parent {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px 20px 10px 10px;
+  background-color: #f1e9f7;
+
+}
+
+.main-child {
+
+}
+
+#mainDiv {
+  padding-bottom: 8px;
+
+}
 /* ------ fonts begin ------ */
 .good-font {
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 1.7em;*/
+}
+
+.good-font-small {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
-  font-size: 2em;
+  font-size: 1.3em;
 }
+
 /* ------ fonts end ------ */
 
 #main-page {
   border: 20;
+}
+
+.good-font::first-letter {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 1.8em;
 }
 
 .center {
